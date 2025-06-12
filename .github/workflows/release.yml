@@ -1,9 +1,9 @@
 name: release          # feel free to rename
 
-on:                                     # ✅  runs for every commit
-  push:                                 #     (branches *and* tags)
-    branches: ["**"]                    #     match all branches
-    tags:     ["**"]                    #     match all tags
+on:
+  push:
+    branches:
+      - "master"
 
 permissions: read-all                   # default is fine – we’re not calling the REST API
 

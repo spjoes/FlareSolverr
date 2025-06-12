@@ -1,4 +1,4 @@
-name: build-windows-artifacts          # feel free to rename
+name: release          # feel free to rename
 
 on:                                     # ✅  runs for every commit
   push:                                 #     (branches *and* tags)
